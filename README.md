@@ -1,8 +1,8 @@
-# Centos 8 Docker Image with systemd
+# Centos 7 Docker Image with systemd
 
-[![Build](https://github.com/eniocarboni/docker-centos-systemd/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/eniocarboni/docker-centos-systemd/actions/workflows/build.yml) [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://www.gnu.org/licenses/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/EnioCarboni)
+[![Build](https://github.com/eniocarboni/docker-centos-systemd/actions/workflows/build.yml/badge.svg?branch=centos7)](https://github.com/eniocarboni/docker-centos-systemd/actions/workflows/build.yml) [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg)](https://www.gnu.org/licenses/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/EnioCarboni)
 
-Centos 8 Docker container with systemd, useful for tests with `ansible` especially with `molecule`
+Centos 7 Docker container with systemd, useful for tests with `ansible` especially with `molecule`
 
 ## Tags
 
@@ -14,7 +14,7 @@ Centos 8 Docker container with systemd, useful for tests with `ansible` especial
 
   * Verify if [Docker is installed](https://docs.docker.com/install/).
   * Run on main branch: `docker build -t docker-centos-systemd:centos8 -t docker-centos-systemd:latest .`
-  * Run on 18.04 branch: `docker build -t docker-centos-systemd:centos7 .`
+  * Run on centos7 branch: `docker build -t docker-centos-systemd:centos7 .`
   * Verify image: `docker images`
 
 ## How to Use
