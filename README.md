@@ -6,15 +6,15 @@ Centos 8 Docker container with systemd, useful for tests with `ansible` especial
 
 ## Tags
 
-  - `centos8`, `latest` on main branch
-  - `centos7` on centos7 branch
+  - `centos8`, `latest` on [main branch](https://github.com/eniocarboni/docker-centos-systemd)
+  - `centos7` on [centos7 branch](https://github.com/eniocarboni/docker-centos-systemd/tree/centos7)
 
 
 ## How to Build
 
   * Verify if [Docker is installed](https://docs.docker.com/install/).
   * Run on main branch: `docker build -t docker-centos-systemd:centos8 -t docker-centos-systemd:latest .`
-  * Run on 18.04 branch: `docker build -t docker-centos-systemd:centos7 .`
+  * Run on centos7 branch: `docker build -t docker-centos-systemd:centos7 .`
   * Verify image: `docker images`
 
 ## How to Use
